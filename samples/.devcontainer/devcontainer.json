@@ -1,15 +1,17 @@
-{   
-	"name": "Fabric Extensions for Python UDF",
-    "dockerFile": "Dockerfile",
-	"forwardPorts": [ 7071 ],
-    "image": "mcr.microsoft.com/vscode/devcontainers/python:3.9",
-    "extensions": [
-        "fabric.vscode-fabric-functions",
-        "fabric.vscode-fabric",        
-		"ms-azuretools.vscode-docker",
-		"ms-python.python"
-    ],
-    "settings": {
-        "python.pythonPath": "/usr/local/bin/python"
-    }   
+{
+  "name": "Fabric Extensions for Python UDF",
+  "dockerFile": "Dockerfile",
+  "forwardPorts": [
+    7071
+  ],
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.9",
+  "extensions": [
+    "fabric.vscode-fabric-functions",
+    "fabric.vscode-fabric",
+    "ms-azuretools.vscode-docker",
+    "ms-python.python"
+  ],
+  "settings": {
+    "python.pythonPath": "/usr/local/bin/python"
+  }
 }
